@@ -35,3 +35,21 @@ export type RootTabScreenProps<Screen extends keyof MainTabParamList> = Composit
   BottomTabScreenProps<MainTabParamList, Screen>,
   NativeStackScreenProps<RootStackParamList>
 >;
+
+export type User  = {
+  id: string;
+  name: string;
+  imageURI: String;
+}
+
+export type Message  = {
+  id: string;
+  content: string;
+  createdAt: string;
+}
+
+export type ChatRoom ={
+  id: string;
+  users: [User];
+  lastMessage: Message
+}

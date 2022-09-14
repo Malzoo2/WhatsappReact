@@ -1,4 +1,4 @@
-import TabOneScreen from '../screens/TabOneScreen';
+
 import TabTwoScreen from '../screens/TabTwoScreen';
 import useColorScheme from '../hooks/useColorScheme';
 import Colors from '../constants/Colors';
@@ -6,7 +6,7 @@ import { FontAwesome, Fontisto } from '@expo/vector-icons';
 import React from 'react';
 import { MainTabParamList, RootTabScreenProps } from '../types';
 import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
-import { color } from 'react-native-reanimated';
+import ChatScreen from '../screens/ChatScreen';
 /**
  * A bottom tab navigator displays tab buttons on the bottom of the display to switch screens.
  * https://reactnavigation.org/docs/bottom-tab-navigator
@@ -35,7 +35,7 @@ import { color } from 'react-native-reanimated';
        }}>
        <MainTab.Screen
          name="Camera"
-         component={TabOneScreen} 
+         component={TabTwoScreen} 
          options={          
           {                            
           tabBarIcon: ({ color }) => (
@@ -46,7 +46,7 @@ import { color } from 'react-native-reanimated';
        />
        <MainTab.Screen
          name="Chats"
-         component={TabTwoScreen}
+         component={ChatScreen}
          options={{
            title: 'Chats',           
          }}
