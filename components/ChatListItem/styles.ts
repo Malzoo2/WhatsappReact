@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
     },    
     midContainer :{
-        justifyContent: 'space-around'
+        justifyContent: 'space-around',        
     },  
     avatar :{
     width: 60,
@@ -26,10 +26,11 @@ const styles = StyleSheet.create({
     },
     lastMessage:{
         fontSize: 16,
-        color: 'gray'
+        color: 'gray',
+        
     },
     time:{
-        fontSize: 16,
+        fontSize: 14,
         color: 'gray'
     },
 
