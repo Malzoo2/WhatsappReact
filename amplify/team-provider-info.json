@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-whatsappreact-dev-123847-authRole",
+      "UnauthRoleArn": "arn:aws:iam::183913222950:role/amplify-whatsappreact-dev-123847-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::183913222950:role/amplify-whatsappreact-dev-123847-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-whatsappreact-dev-123847-deployment",
+      "UnauthRoleName": "amplify-whatsappreact-dev-123847-unauthRole",
+      "StackName": "amplify-whatsappreact-dev-123847",
+      "StackId": "arn:aws:cloudformation:us-east-1:183913222950:stack/amplify-whatsappreact-dev-123847/5a05f180-3a5a-11ed-a4d2-0a069ac84dfd",
+      "AmplifyAppId": "dl0t9clkzaw76"
+    }
+  }
+}

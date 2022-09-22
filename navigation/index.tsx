@@ -18,6 +18,7 @@ import { RootStackParamList } from '../types';
 import LinkingConfiguration from './LinkingConfiguration';
 import MainTabNavigator from './MainTabNavigator';
 import styles from '../components/ChatListItem/styles';
+import ContactsScreen from '../screens/ContactsScreen';
 
 
 
@@ -88,7 +89,7 @@ function RootNavigator() {
           }
         )}
          />
-
+      <Stack.Screen name="Contacts" component={ContactsScreen} options={{ title: 'Contacts Screen!' }} />
 
       <Stack.Screen name="NotFound" component={NotFoundScreen} options={{ title: 'Oops!' }} />
       <Stack.Group screenOptions={{ presentation: 'modal' }}>
